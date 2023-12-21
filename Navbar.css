@@ -1,0 +1,86 @@
+.navdiv {
+  overflow-y: hidden;
+  height: 10rem;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 55px;
+  background-color: #011d2c;
+  color: white;
+}
+
+.logo {
+  width: 100px; 
+  height: auto; 
+}
+.home{
+
+  margin-left: 600px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 13rem;
+}
+.app{
+  margin-left: 50px;
+}
+.app:hover {
+  background-color: #e8dede;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.app {
+  text-decoration: none;
+  color: rgb(20, 56, 135);
+  margin: 0 1rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #080808;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: rgb(24, 51, 138);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

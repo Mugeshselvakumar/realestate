@@ -1,0 +1,16 @@
+.homecontainer {
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.pikbest.com/backgrounds/20190718/real-estate-black-background-minimalist-style-poster-banner_1899077.jpg!sw800");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homecontainer p {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: white;
+  justify-content: center;
+}
